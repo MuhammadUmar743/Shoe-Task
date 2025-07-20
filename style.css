@@ -1,0 +1,129 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+ }
+
+ .container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.main{
+    display: flex;
+}
+.logo{
+    width: 50px;
+    height: 30px;
+}
+.links{
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(44, 42, 42);
+    font-weight: 700;
+    padding-left: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+
+}
+a:hover{
+    color: blue;
+}
+.btn1{
+    background-color: red;
+    color: white;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.btn1:hover{
+    color: red;
+    background-color: white;
+    border: 2px solid red;
+}
+.one{
+    padding-left: 100px;
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.para{
+    padding-left: 100px;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(84, 80, 80);
+    font-size: 12px;
+   
+  
+
+}
+.shoes{
+    width: 10px;
+    height: 10px;
+    margin-left: 200px;
+}
+.btn2{
+    background-color: red;
+    color: white;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-left: 100px;
+}
+.btn2:hover{
+    color: red;
+    background-color: white;
+    border: 2px solid red;
+}
+.btn3{
+    padding: 4px;
+}
+.btn3:hover{
+    color: rgb(15, 13, 13);
+    background-color: white;
+    border: 2px solid rgb(16, 14, 14);
+}
+.ink{
+    padding-left: 100px;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(84, 80, 80);
+    font-size: 12px;
+}
+.flip{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px; 
+    margin-left: 100px;
+    
+}
+body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+
+
+    /* Responsive tweaks */
+    @media (max-width: 768px) {
+      .container {
+        padding: 0.5rem;
+      }
+    }
